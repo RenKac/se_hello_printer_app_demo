@@ -22,3 +22,6 @@ jobs:
       # Tests verbose
       - name: Tests verbose # nazwa widoczna potem w historii w actions
         run: make testverbose
+      # Run lint
+      - name: Run lint # nazwa widoczna potem w historii w actions
+        run: make lint
